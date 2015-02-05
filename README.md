@@ -1,0 +1,3 @@
+# Wordpress Theme
+
+## set up
