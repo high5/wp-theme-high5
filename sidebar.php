@@ -11,9 +11,17 @@
                 <?php get_search_form(); ?>
             </div>
 
+            <div id="categories" class="sidebar-module"><h4>Recent Posts</h4>
+                <ol class="list-unstyled">
+                    <?php wp_get_recent_posts(); ?>
+                    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                    <li><a href="<?php the_permalink() ?>"><?php the_title() ?></a></li>
+                    <?php endwhile; endif; ?>
+                </ol>
+            </div>
+
             <div id="categories" class="sidebar-module"><h4>Categories</h4>
                 <ol class="list-unstyled">
-
                     <?php wp_list_categories( 'title_li=' ); ?>
                 </ol>
             </div>
