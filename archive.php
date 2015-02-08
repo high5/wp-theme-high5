@@ -43,8 +43,8 @@
 
           <nav>
             <ul class="pager">
-              <li><a href="#">Previous</a></li>
-              <li><a href="#">Next</a></li>
+              <li class="pull-left"><?php next_posts_link( __( '&larr; Older Posts', 'wp-theme-high5' ) ); ?></li>
+              <li class="pull-right"><?php previous_posts_link( __( 'Newer Posts &rarr;', 'wp-theme-high5' ) ); ?></li>
             </ul>
           </nav>
 

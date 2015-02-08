@@ -21,8 +21,8 @@
                 <p class="p-tags"><?php the_tags(); ?></p>
 
                 <ul class="pager clearfix">
-                    <li class="pull-left"><?php previous_post_link( '%link', '' . _x( '&larr;', 'Previous post link', 'wpboot' ) . ' %title' ); ?></li>
-                    <li class="pull-right"><?php next_post_link( '%link', '%title ' . _x( '&rarr;', 'Next post link', 'wpboot' ) . '' ); ?></li>
+                    <li class="pull-left"><?php previous_post_link( '%link', '' . _x( '&larr;', 'Previous post link', 'wp-theme-high5' ) . ' %title' ); ?></li>
+                    <li class="pull-right"><?php next_post_link( '%link', '%title ' . _x( '&rarr;', 'Next post link', 'wp-theme-high5' ) . '' ); ?></li>
                 </ul>
 
                   <?php comments_template(); ?>
