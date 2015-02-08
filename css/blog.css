@@ -149,11 +149,9 @@ h6, .h6 {
   color: #999;
 }
 
-
 /*
  * Footer
  */
-
 .blog-footer {
   padding: 40px 0;
   color: #999;
@@ -164,3 +162,32 @@ h6, .h6 {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+/*
+ * archive-title
+ */
+.archive-title {
+	border: 1px solid #e8e8e8;
+	padding: 0.5em;
+	margin-bottom: 1.3em;
+	background: #fbfbfb;
+	font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

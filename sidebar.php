@@ -1,7 +1,7 @@
         <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
           <div class="sidebar-module sidebar-module-inset">
             <h4>About</h4>
-            <p>I'm japanese. Live in Tokyo.</p>
+            <p>I'm a Software Engineer located in Tokyo with over 8 years of proven experience developing various small and large web applications.</p>
           </div>
 
 

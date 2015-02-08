@@ -18,8 +18,7 @@
                 <?php _e( 'Archive for', 'wp-theme-high5' ); ?> <?php echo get_the_date( _x( 'Y', 'yearly archives date format', 'wp-theme-high5' ) ) ?>
 
             <?php } elseif (is_search()) { ?>
-                <?php _e( 'Search Results', 'wp-theme-high5' ); ?>
-                <?php printf( __( 'Search Results for: %s', 'wp-theme-high5' ), get_search_query() ); ?>
+                <?php _e( 'Search Results for:', 'wp-theme-high5' ); ?> <?php _e(get_search_query()); ?>
             <?php } elseif (is_author()) { ?>
                 <?php _e( 'Author Archive', 'wp-theme-high5' ); ?>
             <?php } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
